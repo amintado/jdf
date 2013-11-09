@@ -49,6 +49,6 @@ $date = jdf::jmktime($h,$m,$s,$jm,$jd,$jy);
 
 
 ## License ##
-- This package is created based on [jdf](jdf.scr.ir) 
-- [Jalali (Shamsi) DateTime](http://jdf.scr.ir) class included in the package is created by [Ali Fattahi] and is released under the MIT License. 
+- This package is created based on [jdf](http://jdf.scr.ir) 
+- [Jalali (Shamsi) DateTime](https://github.com/alifattahi/jdf) class included in the package is created by [Ali Fattahi] and is released under the MIT License. 
 - This package was created by [Ali Fattahi] and is released under the MIT License.
