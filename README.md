@@ -46,7 +46,7 @@ $date = jdf::jmktime();
 $date = jdf::jmktime($h,$m,$s,$jm,$jd,$jy);
 ```
 
-
+Persian guide for all methods in this package : [Persian guide](http://jdf.scr.ir/rahnama/)
 
 ## License ##
 - This package is created based on [jdf](http://jdf.scr.ir) 
