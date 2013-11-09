@@ -47,11 +47,8 @@ $date = jdf::jmktime($h,$m,$s,$jm,$jd,$jy);
 ```
 
 
-## Notes ##
-
-The class relies on ``strtotime()`` to make sense of your strings, and ``strftime()`` to make the format changes.  Just always check the ``time()`` output to see if you get false timestamps... which means the class couldn't understand what you were telling it.
 
 ## License ##
-- This bundle is created based on [jdf](jdf.scr.ir) 
+- This package is created based on [jdf](jdf.scr.ir) 
 - [Jalali (Shamsi) DateTime](https://github.com/alifattahi/jdf) class included in the package is created by [Ali Fattahi] and is released under the MIT License. 
 - This package was created by [Ali Fattahi] and is released under the MIT License.
