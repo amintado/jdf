@@ -1,5 +1,3 @@
-Persian Jalali date for laravel
-
 alifattahi/jdf
 ======
 
