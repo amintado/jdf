@@ -24,7 +24,7 @@ In your `config/app.php` add `'Alifti\jdf\jdfServiceProvider'` to the end of the
         'Illuminate\Foundation\Providers\ArtisanServiceProvider',
         'Illuminate\Auth\AuthServiceProvider',
         ...
-        'Alifti\jdf\JdfServiceProvider',
+        'Alifti\Jdf\JdfServiceProvider',
 
     ),
 ```
