@@ -9,7 +9,7 @@ Laravel 4 Persian jalali date
 In the `require` key of `composer.json` file add the following
 
 ```yml
-    "alifattahi/jdf": "dev-master"
+    "alifti/jdf": "dev-master"
 ```
 
 Run the Composer update comand
