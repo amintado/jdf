@@ -437,10 +437,10 @@ class	Jdf
 	public static function jmktime($h='',$m='',$s='',$jm='',$jd='',$jy='',$is_dst=-1){
 	 $h=Jdf::tr_num($h); $m=Jdf::tr_num($m); $s=Jdf::tr_num($s); $jm=Jdf::tr_num($jm); $jd=Jdf::tr_num($jd); $jy=Jdf::tr_num($jy);
 	 if($h=='' and $m=='' and $s=='' and $jm=='' and $jd=='' and $jy==''){
-		return mktime();
+		return time();
 	 }else{
 		list($year,$month,$day)=Jdf::jalali_to_gregorian($jy,$jm,$jd);
-		return mktime($h,$m,$s,$month,$day,$year,$is_dst);
+		return time($h,$m,$s,$month,$day,$year,$is_dst);
 	 }
 	}
 	
